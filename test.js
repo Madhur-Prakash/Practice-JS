@@ -208,5 +208,7 @@ obj = {
 }
 // console.log(obj)
 
-const myarr = Array.from(obj)
-console.log(myarr)
+// const myarr = Array.from(obj)
+// console.log(myarr)
+const now = new Date();
+console.log(String(now.getHours()).padStart(2, '0'))
