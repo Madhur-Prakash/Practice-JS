@@ -193,7 +193,7 @@
 
 
 //reducer
-const mynum = [1,2,3,4]
+// const mynum = [1,2,3,4]
 // const newnums = mynum.reduce( (acc, val) => {
 //     console.log(`acc: ${acc}, current val: ${val}`)
 //     return acc + val}, 0)
@@ -202,14 +202,16 @@ const mynum = [1,2,3,4]
 // console.log(newnums)
 
 
-obj = {
-    name: "madhur",
-    age: 20
-}
+// obj = {
+//     name: "madhur",
+//     age: 20
+// }
 // console.log(obj)
 
 // const myarr = Array.from(obj)
 // console.log(myarr)
-const now = new Date();
-const hours = (String(now.getHours()).padStart(2, '0'))
-console.log(hours[1])
+// const now = new Date();
+// const hours = (String(now.getHours()).padStart(2, '0'))
+// console.log(hours[1])
+
+
