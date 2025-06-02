@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice async func</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <button id="stop">stop</button>
+    <script>
+        const stopMe = setTimeout(() => {
+            console.log("try")
+        }, 2000);
+
+        document.getElementById('stop').addEventListener("click", () => {
+            clearTimeout(stopMe)
+            console.log("stop pessed")
+        })
+    </script>
+</body>
+</html>
