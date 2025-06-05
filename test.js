@@ -215,3 +215,6 @@
 // console.log(hours[1])
 
 
+console.log(Math.PI)
+console.log(Math.ceil(Math.PI));
+console.log(Math.floor(Math.PI));
