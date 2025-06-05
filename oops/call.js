@@ -11,8 +11,8 @@ function createUser(username, email, password){
     this.password = password
 }
 
-const chai = new createUser("chai", "chai@fb.com", "123")
-console.log(chai);
+const JS = new createUser("JS", "JS@fb.com", "123")
+console.log(JS);
 
 
 // alternative you use this way
@@ -28,5 +28,5 @@ function newCreateUser(username, email, password){
     this.password = password
 }
 
-const newChai = new newCreateUser("newChai", "chai@google.com", "123")
-console.log(newChai);
+const newJS = new newCreateUser("newJS", "JS@google.com", "123")
+console.log(newJS);
