@@ -1,5 +1,5 @@
 const user = {
-    username: "hitesh",
+    username: "Jhon",
     loginCount: 8,
     signedIn: true,
 
@@ -31,7 +31,7 @@ function User(username, loginCount, isLoggedIn){
     return this
 }
 
-const userOne = new User("hitesh", 12, true)
+const userOne = new User("Jhon", 12, true)
 const userTwo = new User("JSCode", 11, false)
 console.log(userOne.constructor);
 //console.log(userTwo);
